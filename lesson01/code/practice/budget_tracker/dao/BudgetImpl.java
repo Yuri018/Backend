@@ -3,45 +3,73 @@ package practice.budget_tracker.dao;
 import practice.budget_tracker.model.Purchase;
 
 import java.time.LocalDate;
+import java.util.List;
 
-public class BudgetImpl implements Budget{
+public class BudgetImpl implements Budget {
+    double budget;
+    List<Purchase> purchaseList;// обращаемся к пустому конструктору
+
+    public BudgetImpl(double budget, List<Purchase> purchaseList) {
+        this.budget = budget;
+        this.purchaseList = purchaseList;
+    }
+
     @Override
     public double addMoney(double money) {
-        return 0;
+        budget += money;
+        return budget;
     }
 
     @Override
     public boolean checkBudget() {
-        return false;
+            double res = calcBudget();
+        return res < budget;
     }
 
     @Override
     public boolean addPurchase(Purchase purchase) {
-        return false;
+        if (purchaseList == null || purchaseList.contains(purchase)){
+            return false;
+        }
+        return purchaseList.add(purchase);
     }
 
     @Override
     public double calcBudget() {
-        return 0;
+
+        return purchaseList.stream()
+                .mapToDouble(Purchase::getAmount)
+                .sum();
     }
 
     @Override
     public double getBudgetByPerson(String person) {
-        return 0;
+        return purchaseList.stream()
+                .filter(purchase -> purchase.getPersonName().equalsIgnoreCase(person))
+                . mapToDouble(Purchase::getAmount)
+                .sum();
     }
 
     @Override
-    public double getBudgetByStore(String person) {
-        return 0;
+    public double getBudgetByStore(String store) {
+        return purchaseList.stream()
+                .filter(purchase -> purchase.getStore().equalsIgnoreCase(store))
+                .mapToDouble(Purchase::getAmount)
+                .sum();
     }
 
     @Override
     public double getBudgetByDate(LocalDate from, LocalDate to) {
-        return 0;
+        return purchaseList.stream()
+                .filter(purchase -> purchase.getDate().isAfter(from) && purchase.getDate().isBefore(to))
+                .mapToDouble(Purchase::getAmount)
+                .sum();
     }
 
     @Override
     public double checkMoney() {
-        return 0;
+        double spends = calcBudget();
+        double res = budget - spends;
+        return res;
     }
 }
