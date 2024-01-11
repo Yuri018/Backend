@@ -84,12 +84,6 @@ public class Purchase {
 
     @Override
     public String toString() {
-        return "Purchase{" +
-                "id=" + id +
-                ", store='" + store + '\'' +
-                ", personName='" + personName + '\'' +
-                ", amount=" + amount +
-                ", date=" + date +
-                '}';
+        return id + "," + store + "," + personName + "," + amount + "," + date;
     }
 }

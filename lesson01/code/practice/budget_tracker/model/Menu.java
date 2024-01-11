@@ -2,7 +2,7 @@ package practice.budget_tracker.model;
 
 public enum Menu {
     SET_BUDGET(1, "Month budget"),
-    ADD_PURCHASE(1, "Add purchase"),
+    ADD_PURCHASE(2, "Add purchase"),
     CHECK_BUDGET(3, "Check budget"),
     BUDGET_STORE(4, "Budget by store"),
     BUDGET_PERSON(5, "Budget by person"),
@@ -25,5 +25,6 @@ public enum Menu {
             System.out.print(menu[i].id + ": " + menu[i].item + " | ");
         }
         System.out.println();
+        System.out.println("Input your choice:");
     }
 }
