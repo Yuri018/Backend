@@ -26,7 +26,7 @@ public class BudgetAppl {
             //появилось меню и приглашение для пользователя
 
             try {
-                int choice = scanner.nextInt();//получаем с клавы выбор пользователя
+                int choice = scanner.nextInt();//получаем с клавиатуры выбор пользователя
 
                 switch (choice) {
                     case 1 -> {
@@ -76,9 +76,23 @@ public class BudgetAppl {
                     }
                     case 5 -> {
                         System.out.println("Budget by person: ");
+                        scanner.nextLine();
+                        System.out.println("Input person: ");
+                        String person = scanner.nextLine();
+                        System.out.println("Person " + person + " spent " + monthBudget.getBudgetByPerson(person));
                     }
                     case 6 -> {
                         System.out.println("Budget by date: ");
+                        scanner.nextLine();
+                        System.out.println("Enter start date YYYY-MM-DD: ");
+                        String start = scanner.nextLine();
+                        DateTimeFormatter formatter = DateTimeFormatter.ofPattern("yyyy-MM-dd");
+                        LocalDate from = LocalDate.parse(start, formatter);
+                        System.out.println("Enter end date YYYY-MM-DD: ");
+                        String end = scanner.nextLine();
+                        LocalDate to = LocalDate.parse(end, formatter);
+                        System.out.println("Budget from " + from + " to " + to
+                                + " is " + monthBudget.getBudgetByDate(from, to));
                     }
 
                     case 7 -> {

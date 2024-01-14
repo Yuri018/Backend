@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3bebaf65-b59d-4e98-9475-943eff5272db" name="Changes" comment="added HomeWork 4 app2 Event">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="3bebaf65-b59d-4e98-9475-943eff5272db" name="Changes" comment="update project Budget">
       <change beforePath="$PROJECT_DIR$/lesson01/code/practice/budget_tracker/BudgetAppl.java" beforeDir="false" afterPath="$PROJECT_DIR$/lesson01/code/practice/budget_tracker/BudgetAppl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson01/lesson01.iml" beforeDir="false" afterPath="$PROJECT_DIR$/lesson01/lesson01.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,7 +66,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "Application.BudgetAppl.executor": "Debug",
+    "Application.BudgetAppl.executor": "Run",
     "Application.Main (1).executor": "Run",
     "Application.Main.executor": "Run",
     "Application.de.ait.app1.Main (1).executor": "Run",
@@ -269,7 +267,15 @@
       <option name="project" value="LOCAL" />
       <updated>1705178493158</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="update project Budget">
+      <option name="closed" value="true" />
+      <created>1705239869246</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1705239869246</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -289,15 +295,26 @@
     <MESSAGE value="added lesson 4 practice" />
     <MESSAGE value="update lesson 4" />
     <MESSAGE value="added HomeWork 4 app2 Event" />
-    <option name="LAST_COMMIT_MESSAGE" value="added HomeWork 4 app2 Event" />
+    <MESSAGE value="update project Budget" />
+    <option name="LAST_COMMIT_MESSAGE" value="update project Budget" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/lesson01/code/practice/budget_tracker/BudgetAppl.java</url>
-          <line>84</line>
+          <line>86</line>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/lesson01/code/practice/budget_tracker/BudgetAppl.java</url>
+          <line>73</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/lesson01/code/practice/budget_tracker/BudgetAppl.java</url>
+          <line>80</line>
+          <option name="timeStamp" value="4" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
