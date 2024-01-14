@@ -4,15 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3bebaf65-b59d-4e98-9475-943eff5272db" name="Changes" comment="added lesson 4 practice">
-      <change afterPath="$PROJECT_DIR$/lesson04/code/homeWork04/src/de/ait/app2/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson04/code/homeWork04/src/de/ait/app2/controllers/EventController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson04/code/homeWork04/src/de/ait/app2/models/Event.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson04/code/homeWork04/src/de/ait/app2/repositories/CrudRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson04/code/homeWork04/src/de/ait/app2/repositories/EventRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson04/code/homeWork04/src/de/ait/app2/repositories/impl/EventRepositoryListImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson04/code/homeWork04/src/de/ait/app2/services/EventService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson04/code/homeWork04/src/de/ait/app2/services/impl/EventServiceImpl.java" afterDir="false" />
+    <list default="true" id="3bebaf65-b59d-4e98-9475-943eff5272db" name="Changes" comment="added HomeWork 4 app2 Event">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson01/code/practice/budget_tracker/BudgetAppl.java" beforeDir="false" afterPath="$PROJECT_DIR$/lesson01/code/practice/budget_tracker/BudgetAppl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson01/lesson01.iml" beforeDir="false" afterPath="$PROJECT_DIR$/lesson01/lesson01.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,35 +68,44 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.BudgetAppl.executor": "Debug",
     "Application.Main (1).executor": "Run",
     "Application.Main.executor": "Run",
     "Application.de.ait.app1.Main (1).executor": "Run",
     "Application.de.ait.app1.Main.executor": "Run",
+    "Downloaded.Files.Path.Enabled": "false",
+    "JUnit.BudgetTest.getBudgetByDate.executor": "Run",
+    "JUnit.BudgetTest.getBudgetByPerson.executor": "Run",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/Users/AIT TR Student/IdeaProjects/Backend/lesson04/code/homeWork04/src/de/ait/app2",
+    "last_opened_file_path": "C:/Users/AIT TR Student/IdeaProjects/Backend/lesson01",
     "project.structure.last.edited": "Problems",
     "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
+    "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\AIT TR Student\IdeaProjects\Backend\lesson01" />
+      <recent name="C:\Users\AIT TR Student\IdeaProjects\Backend\lesson04\code\homeWork04\src\de\ait\app2" />
       <recent name="C:\Users\AIT TR Student\IdeaProjects\Backend\lesson04\code\application\src\de\ait\app1" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="de.ait.app1" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main (1)">
-    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="de.ait.app2.Main" />
-      <module name="Backend" />
+  <component name="RunManager">
+    <configuration name="BudgetAppl" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="practice.budget_tracker.BudgetAppl" />
+      <module name="lesson01" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="de.ait.app2.*" />
+          <option name="PATTERN" value="practice.budget_tracker.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -109,9 +113,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="de.ait.app2.Main" />
-      <module name="homeWork4" />
+      <module name="Backend" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="de.ait.app2.*" />
@@ -135,25 +139,45 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="de.ait.app1.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="de.ait.app1.Main" />
-      <module name="application" />
+    <configuration name="BudgetTest.getBudgetByDate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="lesson01" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="de.ait.app1.*" />
+          <option name="PATTERN" value="practice.budget_tracker.tests.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="practice.budget_tracker.tests" />
+      <option name="MAIN_CLASS_NAME" value="practice.budget_tracker.tests.BudgetTest" />
+      <option name="METHOD_NAME" value="getBudgetByDate" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BudgetTest.getBudgetByPerson" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="lesson01" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="practice.budget_tracker.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="practice.budget_tracker.tests" />
+      <option name="MAIN_CLASS_NAME" value="practice.budget_tracker.tests.BudgetTest" />
+      <option name="METHOD_NAME" value="getBudgetByPerson" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.BudgetTest.getBudgetByPerson" />
+        <item itemvalue="JUnit.BudgetTest.getBudgetByDate" />
+        <item itemvalue="Application.BudgetAppl" />
         <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.de.ait.app1.Main (1)" />
-        <item itemvalue="Application.de.ait.app1.Main" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -229,7 +253,23 @@
       <option name="project" value="LOCAL" />
       <updated>1705177945501</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="update lesson 4">
+      <option name="closed" value="true" />
+      <created>1705178433549</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1705178433549</updated>
+    </task>
+    <task id="LOCAL-00009" summary="added HomeWork 4 app2 Event">
+      <option name="closed" value="true" />
+      <created>1705178493158</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1705178493158</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -247,6 +287,19 @@
     <MESSAGE value="added Homework 4 app Events" />
     <MESSAGE value="update project" />
     <MESSAGE value="added lesson 4 practice" />
-    <option name="LAST_COMMIT_MESSAGE" value="added lesson 4 practice" />
+    <MESSAGE value="update lesson 4" />
+    <MESSAGE value="added HomeWork 4 app2 Event" />
+    <option name="LAST_COMMIT_MESSAGE" value="added HomeWork 4 app2 Event" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/lesson01/code/practice/budget_tracker/BudgetAppl.java</url>
+          <line>84</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
