@@ -4,7 +4,9 @@
   <component name="MavenProjectsManager">
     <option name="originalFiles">
       <list>
-        <option value="$PROJECT_DIR$/demo/pom.xml" />
+        <option value="$PROJECT_DIR$/mvc-demo/pom.xml" />
+        <option value="$PROJECT_DIR$/mvc-demo2/pom.xml" />
+        <option value="$PROJECT_DIR$/Spring-App1/pom.xml" />
       </list>
     </option>
     <option name="workspaceImportForciblyTurnedOn" value="true" />
