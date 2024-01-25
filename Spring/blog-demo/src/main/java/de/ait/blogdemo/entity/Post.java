@@ -31,6 +31,12 @@ public class Post {
         this.view = view;
     }
 
+    public Post(String title, String anons, String fullText) {
+        this.title = title;
+        this.anons = anons;
+        this.fullText = fullText;
+    }
+
     public Long getId() {
         return id;
     }
