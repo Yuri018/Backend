@@ -4,8 +4,44 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3bebaf65-b59d-4e98-9475-943eff5272db" name="Changes" comment="Added code to cases 5 and 6 of the Budget project">
-      <change beforePath="$PROJECT_DIR$/Spring/mvc-demo/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Spring/mvc-demo/src/main/resources/application.properties" afterDir="false" />
+    <list default="true" id="3bebaf65-b59d-4e98-9475-943eff5272db" name="Changes" comment="update">
+      <change afterPath="$PROJECT_DIR$/Spring/api-REST-demo/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring/api-REST-demo/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring/api-REST-demo/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring/api-REST-demo/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring/api-REST-demo/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring/api-REST-demo/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring/api-REST-demo/src/main/java/de/ait/apirestdemo/ApiRestDemoApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring/api-REST-demo/src/main/java/de/ait/apirestdemo/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring/api-REST-demo/src/main/java/de/ait/apirestdemo/dto/NewUserDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring/api-REST-demo/src/main/java/de/ait/apirestdemo/dto/UserDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring/api-REST-demo/src/main/java/de/ait/apirestdemo/entity/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring/api-REST-demo/src/main/java/de/ait/apirestdemo/repository/CrudRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring/api-REST-demo/src/main/java/de/ait/apirestdemo/repository/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring/api-REST-demo/src/main/java/de/ait/apirestdemo/repository/impl/UserRepositoryFileImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring/api-REST-demo/src/main/java/de/ait/apirestdemo/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring/api-REST-demo/src/main/java/de/ait/apirestdemo/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring/api-REST-demo/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring/api-REST-demo/src/main/resources/http/request.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring/api-REST-demo/src/main/resources/http/request1.http" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring/api-REST-demo/src/main/resources/static/home.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring/api-REST-demo/src/main/resources/static/registration_page.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring/api-REST-demo/src/main/resources/static/success_page.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring/api-REST-demo/src/main/resources/templates/users_page.ftlh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring/api-REST-demo/src/test/java/de/ait/apirestdemo/ApiRestDemoApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring/api-REST-demo/users.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring/api-REST-event" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring/blog-demo/src/main/resources/templates/blog-edit.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Spring/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring/api-REST-event/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Spring/api-REST-event/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring/api-REST-event/src/main/java/de/ait/apirestevent/ApiRestEventApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring/api-REST-event/src/main/java/de/ait/apirestevent/ApiRestEventApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring/api-REST-event/src/main/java/de/ait/apirestevent/entity/Event.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring/api-REST-event/src/main/java/de/ait/apirestevent/entity/Event.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring/api-REST-event/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Spring/api-REST-event/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring/api-REST-event/src/test/java/de/ait/apirestevent/ApiRestEventApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring/api-REST-event/src/test/java/de/ait/apirestevent/ApiRestEventApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring/blog-demo/src/main/java/de/ait/blogdemo/controller/BlogController.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring/blog-demo/src/main/java/de/ait/blogdemo/controller/BlogController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring/blog-demo/src/main/resources/templates/blocks/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/Spring/blog-demo/src/main/resources/templates/blocks/header.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring/blog-demo/src/main/resources/templates/blog-details.html" beforeDir="false" afterPath="$PROJECT_DIR$/Spring/blog-demo/src/main/resources/templates/blog-details.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring/blog-demo/src/main/resources/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/Spring/blog-demo/src/main/resources/templates/home.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,7 +123,7 @@
     "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/AIT TR Student/IdeaProjects/Backend",
+    "last_opened_file_path": "C:/Users/AIT TR Student/IdeaProjects/Backend/Spring/Spring-App1",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -212,6 +248,7 @@
       <workItem from="1705863282059" duration="50000" />
       <workItem from="1705912591128" duration="663000" />
       <workItem from="1706020429959" duration="231000" />
+      <workItem from="1706687910886" duration="154000" />
     </task>
     <task id="LOCAL-00001" summary="update project">
       <option name="closed" value="true" />
@@ -317,7 +354,8 @@
     <MESSAGE value="update lesson 4" />
     <MESSAGE value="added HomeWork 4 app2 Event" />
     <MESSAGE value="update project Budget" />
-    <option name="LAST_COMMIT_MESSAGE" value="update project Budget" />
+    <MESSAGE value="update" />
+    <option name="LAST_COMMIT_MESSAGE" value="update" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

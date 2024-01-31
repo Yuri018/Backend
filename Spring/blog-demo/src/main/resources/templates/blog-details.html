@@ -14,8 +14,8 @@
     <div th:each="el : ${post}" class ="alert alert-info mt-2">
         <h1 th:text="${el.title}"/>
         <p th:text="${el.anons}"/>
-        <p th:text="${el.fulltext}"/>
-        <p><b>Views:</b> <span th:text="${el.views}"/></p>
+        <p th:text="${el.fullText}"/>
+        <p><b>Views:</b> <span th:text="${el.view}"/></p>
         <a th:href="'/blog/' + ${el.id} + '/edit'" class="btn btn-warning"> Edit </a>
         <a th:href="'/blog/' + ${el.id} + '/remove'" class="btn btn-warning"> Delete </a>
     </div>
