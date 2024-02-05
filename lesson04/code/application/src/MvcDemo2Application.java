@@ -1,8 +1,8 @@
 package de.ait.mvcdemo2;
 
+
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-
 @SpringBootApplication
 public class MvcDemo2Application {
 
